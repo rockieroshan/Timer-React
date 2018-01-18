@@ -23,7 +23,7 @@ export default class Timer extends Component {
   render() {
     return (
       <div>
-        <button onClick={this.handleAddOne}>Add</button>
+       
         <h1>You have been on this site since:</h1> 
         <p>{this.state.count} Seconds</p>
       </div>
